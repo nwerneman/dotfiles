@@ -1,5 +1,5 @@
 alias l="ls -lahGp"
-alias c="cd .."
+alias c="clear"
 alias n="nano --nohelp"
 alias gpull="git pull origin master"
 alias gpush="git commit -a -m \"meh \" && git push origin master"
