@@ -1,6 +1,8 @@
 alias l="ls -lahGp"
 alias c="cd .."
 alias n="nano --nohelp"
+alias gp="git pull origin master"
+
 
 # MacPorts Installer addition on 2012-01-11_at_09:33:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
