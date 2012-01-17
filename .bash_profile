@@ -1,4 +1,4 @@
-alias l="ls -lahGp"
+alias l="ls -lahp"
 alias c="clear"
 alias n="nano --nohelp"
 alias gpull="git pull origin master"
