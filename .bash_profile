@@ -1,10 +1,9 @@
-alias l="ls -lahpG"
+alias l="ls -lahp"
 alias c="clear"
-alias cl="clear && ls -lahpG"
 alias n="nano --nohelp"
 alias gpull="git pull origin master"
 alias gpush="git commit -a -m \"meh \" && git push origin master"
-#
+
 # MacPorts Installer addition on 2012-01-11_at_09:33:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
