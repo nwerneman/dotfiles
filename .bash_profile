@@ -9,7 +9,11 @@ if [ "$OS" == "Linux" ]; then
         alias n="nano --nohelp"
         alias cl="c && l"
         alias gpull="git pull origin master"
+	export PS1="\[$(tput setaf 7)\][\u@\[$(tput setaf 1)\]\h:\w\[$(tput setaf 7)\]]\\$\[$(tput sgr0)\] "	
 	fi
+
+
+
 
 if [ "$OS" == "Darwin" ]; then
 	echo "I'm on Darwin"
