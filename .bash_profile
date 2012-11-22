@@ -4,7 +4,7 @@ OS=$(uname -s)
 
 if [ "$OS" == "Linux" ]; then
 	echo "I'm on Linux"
-	alias l="ls -lahpG"
+	alias l="ls -lahp"
         alias c="clear"
         alias n="nano --nohelp"
         alias cl="c && l"
